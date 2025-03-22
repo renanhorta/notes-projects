@@ -31,5 +31,5 @@ notes-projects/
 ```
 
 ## Deployment
-O projeto foi preparado para deployment 
+A aplicação está rodando em um deploy na **Choreo**. No entanto, o serviço utilizado possui uma limitação onde o banco de dados desliga a cada hora. O objetivo deste projeto não é manter um ambiente de produção estável, mas sim aprender a configurar e executar um deploy completo, rodando a aplicação sem depender do localhost.
 
