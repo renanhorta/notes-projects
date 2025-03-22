@@ -3,7 +3,7 @@
 ## Tecnologias Utilizadas
 - **Backend**: Django (Django Rest Framework)
 - **Frontend**: React
-- **Banco de Dados**: Sqlite
+- **Banco de Dados**: Postgres
 - **Autenticação**: JWT
 
 ## Descrição do Projeto
@@ -12,7 +12,7 @@ O projeto consiste em um aplicativo web para a criação, edição e gerenciamen
 - Construção de uma API RESTful com Django Rest Framework (DRF)
 - Integração entre frontend (React) e backend (Django)
 - Implementação de autenticação segura com JWT
-- Deployment da aplicação
+- Deployment da aplicação, feita no site Choreo
 - Conceitos básicos e boas práticas de programação
 
 ## Funcionalidades
@@ -24,13 +24,12 @@ O projeto consiste em um aplicativo web para a criação, edição e gerenciamen
 
 ## Estrutura do Projeto
 ```
-projeto-lembretes/
+notes-projects/
 │── backend/       # Código do backend em Django
 │── frontend/      # Código do frontend em React
-│── docker/        # Configurações para containerização (futura implementação)
 │── README.md      # Arquivo com informações sobre o projeto
 ```
 
 ## Deployment
-O projeto será preparado para deployment utilizando tecnologias modernas, garantindo escalabilidade e facilidade de manutenção.
+O projeto foi preparado para deployment 
 
