@@ -11,7 +11,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         user = User.objects.create_user(**validated_data) # aqui em '**validate_data' o django está separando os argumentos em dict e passando para a ORM para criar um novo user
-        return User
+        return user
     
     def __str__(self):
         return super().__str__()
